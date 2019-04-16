@@ -19,7 +19,7 @@ export default ({ data }) => (
         <meta name="keywords" content="React, Javascript" />
         <meta name="author" content="Chris" />
       </Helmet>
-      <Headline>My blog post</Headline>
+      <Headline>My blog post (Netlify)</Headline>
       <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
       {data.allMarkdownRemark.edges.map(({ node }) => (
         <div key={node.id}>
